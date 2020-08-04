@@ -1,0 +1,1 @@
+export const recipeApiBaseUri = 'https://forkify-api.herokuapp.com/api';

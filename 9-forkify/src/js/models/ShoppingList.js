@@ -1,0 +1,26 @@
+import uniqid from 'uniqid';
+
+export default class ShoppingList {
+    constructor() {
+        this.items = [];
+    }
+    addItem(count, unit, ingredient) {
+        const newItem = {
+            id: uniqid(),
+            count,
+            unit,
+            ingredient
+        };
+        this.items.push(newItem);
+        return newItem;
+    }
+    deleteItem(id) {
+        const index = this.items.findIndex(element => element.id === id);
+        //Example 1: [2, 4, 8] splice(1, 2) --> returns [4, 8], original array is [2] (no copy)
+        //Example 2: [2, 4, 8] slice(1, 2)  --> returns 4 only, original array is [2, 4, 8] (makes copy)
+        this.items.splice(index, 1);  //Delete one item
+    }
+    updateCount(id, newCount) {
+        this.items.find(element => element.id === id).count = newCount;
+    }
+}
