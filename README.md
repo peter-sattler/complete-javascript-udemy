@@ -1,5 +1,5 @@
 # The Complete JavaScript Course Coding Challenges (Udemy)
-![Udemy Certificate](https://github.com/peter-sattler/complete-javascript-udemy/blob/master/certificate.jpg)
+![Udemy Certificate](/images/certificate.jpg)
 
 # Important Links
 
