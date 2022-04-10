@@ -5,6 +5,32 @@
 
 [JONAS' RESOURCES FOR BUILDING BEAUTIFUL WEBSITES WITH HTML, CSS AND JAVASCRIPT](http://codingheroes.io/resources)  
 [Forkify API V1 Documentation](http://forkify-api.herokuapp.com)  
+[Introduction to Node.js](https://nodejs.dev/learn)  
+[Webpack 4 Migration Guide](https://github.com/webpack/webpack-dev-server/blob/master/migration-v4.md)  
+
+## Forkify Application
+
+These instructions will get you a copy of the Forkify application up and running on your local machine: 
+
+1. Download and install the latest LTS version of [Node.js](https://nodejs.org/en/).
+2. Clone this Git repository and download all dependencies:
+```text
+git clone https://github.com/peter-sattler/complete-javascript-udemy
+cd complete-javascript-udemy/9-forkify
+npm update
+```
+3. Install the [Live Server](https://www.npmjs.com/package/open) (renamed to open):
+```text
+npm install open --global
+```
+4. Run the [Webpack](https://www.npmjs.com/package/webpack) production build:
+```text
+npm run build
+```
+5. Start the Forkify application:
+```text
+npm run start
+```
 
 Pete Sattler  
 4 August 2020  
