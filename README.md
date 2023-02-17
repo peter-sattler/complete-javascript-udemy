@@ -5,7 +5,6 @@
 
 [JONAS' RESOURCES FOR BUILDING BEAUTIFUL WEBSITES WITH HTML, CSS AND JAVASCRIPT](http://codingheroes.io/resources)  
 [Forkify API V1 Documentation](http://forkify-api.herokuapp.com)  
-[Introduction to Node.js](https://nodejs.dev/learn)  
 [Webpack 4 Migration Guide](https://github.com/webpack/webpack-dev-server/blob/master/migration-v4.md)  
 
 ## Forkify Application
