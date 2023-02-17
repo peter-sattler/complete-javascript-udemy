@@ -36,6 +36,7 @@ npm run build
 ```text
 npm run start
 ```
+8. Try searching for pizza to get started!!!
 
 Pete Sattler  
 4 August 2020  
